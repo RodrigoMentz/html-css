@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.externa {
+    padding: 100px 20px;
+    margin: 10px;
+    background-color: #CACACA;
+}
+
+div.interna {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #878787;
+    border-radius: 10px;
+    box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.349);
+}
+
+div.interna > a {
+    color: #00bbc9;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.interna a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 500px;
+}

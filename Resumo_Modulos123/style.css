@@ -39,8 +39,8 @@ div.externa {
 div.interna {
     border: 1px solid black;
     border-radius: 10px;
-    text-align: center;
     margin-top: 10px;
+    text-align: center;
     background-color: #878787;
 }
 
@@ -59,7 +59,7 @@ div.listas ol, ul {
 
 
 h1{
-    margin-top: 10px;
+    text-align: center;
     color: #00747c;
 }
 
