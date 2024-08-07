@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*CSS web safe font combinations*/
+    /*
+    Medidas absolutas
+    cn, mm, in, px, pt, pc
+    in = polegada
+    pt = ponto
+    pc = paica
+
+    Medidas relativas
+    em, ex, rem, vw, %
+    em = tamanho relativo ao M maiusculo de uma fonte
+    ex = tamanho de uma altura X de uma fonte
+    rem = em relativo ao root, relativo ao body
+    vw = largura da view port, tamanho da sua tela
+    16px geralmente = 1em
+
+    Recomendacao oficial da W3C usar px e em
+    */
+}
+
+div.externa {
+    padding: 100px 20px;
+    margin: 10px;
+    background-color: #CACACA;
+}
+
+div.interna {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #878787;
+    border-radius: 10px;
+    box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.349);
+}
+
+h1, h2 {
+    padding-bottom: 5px;
+    text-align: center;
+    color: #00747c;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    /*lighter normal bold bolder
+    100 - 900*/
+    font-style: italic;
+    /* text-decoration: underline; */
+    
+    /*shorthand font
+    font-style font-weight font-size font-family
+    font: italic bolder 3em Arial, sans-serif;
+    font: bolder 3em Arial, sans-serif;
+    */
+    /* text-align: left;
+    text-align: center;
+    text-align: right;
+    text-align: justify;
+    text-indent: 30px; */
+}
+
+h2{
+    color: #00bbc9;
+}
+
+img {
+    padding: 10px;
+    width: 500px;
+}

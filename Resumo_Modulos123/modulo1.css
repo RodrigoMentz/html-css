@@ -37,11 +37,12 @@ div.externa {
 }
 
 div.interna {
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-top: 10px;
     text-align: center;
+    margin-top: 10px;
+    padding: 10px;
     background-color: #878787;
+    border-radius: 10px;
+    box-shadow: 6px 6px 15px 0px rgba(0, 0, 0, 0.349);
 }
 
 div.listas {
@@ -57,8 +58,8 @@ div.listas ol, ul {
     text-align: left;
 }
 
-
 h1{
+    padding-bottom: 5px;
     text-align: center;
     color: #00747c;
 }

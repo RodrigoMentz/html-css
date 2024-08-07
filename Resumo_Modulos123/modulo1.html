@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="Iconsmind-Outline-Shop.ico" type="image/x-icon"> <!--mudar icon do site-->
     <title>Resumo módulos 1, 2 e 3</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modulo1.css">
 </head>
 <body>
 
@@ -21,7 +21,7 @@
         <a href="#videos">Vídeos</a>
         <a href="#estilos-inline">Estilos inline</a>
         <a href="ferramentas.html">Ferramentas úteis</a>
-
+        <a href="modulo2.html">Módulo 2</a>
     </div>
 
     <div class="externa">
@@ -59,6 +59,7 @@
         </div>
         <div class="interna" id="formatacoes">
             <!--ex08-->
+            <!--ctrl shift p envelopa com a tag-->
             <h1>Formatação de textos</h1>
             <h1>Principais formatações</h1>
             <hr>
@@ -67,7 +68,7 @@
             <p>Nessa frase temos um <strong>termo em negrito</strong> usando a tag Strong (semântica).</p>
             <h2>Itálico / Ênfase</h2>
             <p>Nesta frase, temos um <i>termo em Itálico</i> usando a tag I (não semântica)</p>
-            <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica)</p> <!--ctrl shift p -->
+            <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica)</p> 
             <h2>Texto marcado</h2>
             <p>Podemos criar tamb[em <mark>um texto marcado</mark> usando a tag MARK</p>
             <p>E no outro parágrafo, temos <mark>outro texto marcado</mark> no texto no final.</p>
@@ -113,8 +114,16 @@
         <div class="interna" id="listas">
             <div class="listas">
                 <h1>Trabalhando com Listas</h1>
-                <h2>Listas ordenadas</h2>
                 <hr>
+                <h2>Listas ordenadas</h2>
+                <pre>
+                    <code>
+                        &lt;ol&gt;
+                                &lt;li&gt;Item&lt;/li&gt;
+                                &lt;li&gt;Item&lt;/li&gt;
+                        &lt;/ol&gt;
+                    </code>
+                </pre>
                 <ol type="1"> <!--Lista ordenada, i A a I i-->
                     <li>Acordar</li>
                     <li>Ligar para o João</li>
@@ -122,6 +131,14 @@
                     <li>Escovar os dentes</li>
                 </ol>
                 <h2>Lista não ordenada</h2>
+                <pre>
+                    <code>
+                        &lt;ul&gt;
+                                &lt;li&gt;Item&lt;/li&gt;
+                                &lt;li&gt;Item&lt;/li&gt;
+                        &lt;/ul&gt;
+                    </code>
+                </pre>
                 <ul type="circle"> <!--Lista não ordenada, disfc = bolinha preta, circle = bolinha vazada, square = quadradinho-->
                     <li>Pão</li>
                     <li>Leite</li>
@@ -246,12 +263,12 @@
             <h1>Estilos inline</h1>
             <hr>
             <h1>Capítulo 1</h1>
-            <h2>Capítulo 1.1</h2>
+            <h2 style="color: mediumblue;">Capítulo 1.1</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, nesciunt dolore, cumque perferendis impedit quia debitis corporis animi recusandae veniam laboriosam, soluta cum ea quis nulla? Dolor quaerat quidem voluptatibus.</p>
-            <h2>Capítulo 1.2</h2>
+            <h2 style="color: blueviolet;">Capítulo 1.2</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime tempore, perspiciatis porro earum ut sint atque iste cumque temporibus. Quibusdam accusantium iste eos minima. Assumenda explicabo ex deserunt hic aut.</p>
             <h1>Capítulo 2</h1>
-            <h2>Capítulo 2.1</h2>
+            <h2 style="color: lightblue;">Capítulo 2.1</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta impedit velit sapiente dignissimos quisquam pariatur eius quis ullam autem ex cum molestias, non eos. Optio architecto fuga explicabo facilis. Beatae?</p>
         </div>
     
