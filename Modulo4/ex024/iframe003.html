@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1, p, a {
+            margin: 10px;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            margin-left: 10px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laborum nulla omnis, odio porro veniam ipsa commodi corporis minima! Velit doloribus placeat possimus magnam, culpa facilis accusamus voluptates sunt perferendis.</p>
+    
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira Página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda Página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira Página</a></li>
+    </ul>
+    
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro commodi nulla, quos non delectus reprehenderit obcaecati quisquam corrupti tempore laudantium similique quibusdam consectetur maiores consequuntur. Rerum, porro mollitia? Vero, libero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae deleniti possimus a placeat aspernatur dolore, beatae ducimus dolores accusamus facilis reiciendis dicta doloribus minus amet molestias enim dolorum at explicabo!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1>">
+        <p>Infelizmente seu navegador não é compatível com isso</p>
+    </iframe>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur vel est ad! Odio tenetur quidem quos sunt explicabo. Veniam non vel nulla, pariatur doloremque odit dignissimos architecto molestiae aut voluptatibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, explicabo excepturi dignissimos deleniti vel sint minima velit. Unde ratione corrupti, maxime, doloremque hic consectetur, debitis adipisci rem corporis exercitationem dicta!</p>
+</body>
+</html>

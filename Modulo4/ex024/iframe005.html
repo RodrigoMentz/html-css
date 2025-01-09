@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+    <style>
+        iframe#foxhole {
+            height: 500px;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha página</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur temporibus ut blanditiis ad repellat nulla quam porro vero cumque impedit provident ex placeat tempora sit inventore, voluptate, consequuntur vitae illum.</p>
+
+    <!-- sandbox bloqueia qualquer acesso que outro site dentro do iframe tente fazer -->
+    <iframe src="paginas-extras/pag005.html" sandbox="allow-scripts" referrerpolicy="no-referrer">
+        Seu navegador não é compatível com isso
+    </iframe>
+
+    <iframe id="foxhole" src="https://foxhole.wiki.gg/wiki/Foxhole_Wiki">
+        Seu navegador não é compatível com isso
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tempora ea architecto corrupti itaque repellendus enim quos aliquam rerum perspiciatis doloribus in laboriosam nostrum illum sunt repudiandae, deleniti ducimus consequuntur.</p>
+</body>
+</html>
